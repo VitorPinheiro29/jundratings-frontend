@@ -1,0 +1,50 @@
+#page-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#page-container .register-container {
+  width: 65rem;
+  height: 100%;
+  padding-top: 5rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+#page-container .register-container .title {
+  padding-left: 5rem;
+  font-weight: bold;
+  color: black;
+}
+
+#page-container .register-container h2 {
+  font-size: 2rem;
+  margin-top: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+#page-container .register-container button {
+  width: 35rem;
+  height: 5.6rem;
+  background: red;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.6rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-top: 3.2rem;
+}
+
+#page-container .banner-container {
+  width: 64.5rem;
+  height: 100%;
+  background-color: yellow;
+}

@@ -1,0 +1,67 @@
+#page-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#page-container .banner-container {
+  width: 65rem;
+  height: 100%;
+  background-color: yellow;
+}
+
+#page-container .login-container {
+  width: 50rem;
+  height: 100%;
+  padding-top: 15rem;
+  padding-left: 15rem;
+}
+
+#page-container .login-container .title {
+  padding-left: 5rem;
+  font-weight: bold;
+  color: black;
+}
+
+#page-container .login-container button {
+  width: 35rem;
+  height: 5.6rem;
+  background: red;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.6rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-top: 3.2rem;
+}
+
+#page-container .login-container footer {
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-container .login-container footer .register-title {
+  display: flex;
+  flex-direction: row;
+}
+
+#page-container .login-container footer .register-title h2 {
+  font-size: 1.7rem;
+}
+
+#page-container .login-container footer .register-title > span {
+  padding-left: 12rem;
+}
+
+#page-container .login-container footer .register-link {
+  font-weight: bold;
+  text-decoration: none;
+}

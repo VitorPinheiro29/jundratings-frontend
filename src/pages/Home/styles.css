@@ -1,0 +1,402 @@
+#page-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  position: relative;
+
+  overflow-x: hidden;
+  background-color: #f0f0f5;
+}
+
+#page-container .banner {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+#page-container .banner .banner-size {
+  width: 100vw;
+  height: 530px;
+}
+
+#page-container .description-site {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  background-color: red;
+  color: black;
+
+  height: 1000px;
+  border: 2px solid black;
+}
+
+#page-container .description-site .phrases {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 1%;
+}
+
+#page-container .description-site .phrases .phrase-one {
+  display: flex;
+  width: 100%;
+
+  font-family: Ubuntu;
+  font-style: italic;
+  font-size: 3.5rem;
+  letter-spacing: 0.25rem;
+
+  margin-top: 1%;
+  text-shadow: 0.5px 2px darkslategray;
+}
+
+#page-container .description-site .phrases .phrase-two {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  font-family: Ubuntu;
+  font-style: italic;
+  font-size: 3.5rem;
+  letter-spacing: 0.25rem;
+
+  margin-top: 4%;
+  text-shadow: 1px 2px darkslategray;
+}
+
+#page-container .description-site .description-illustration {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  padding: 3%;
+}
+
+#page-container .description-site .description-illustration .choose-size {
+  width: 100%;
+  height: 150px;
+}
+
+#page-container .professionals-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-container .professionals-content .title-content {
+  font-family: Alata;
+  font-size: 4.5rem;
+  color: black;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#page-container .professionals-content .professional-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #ffffff;
+
+  margin-top: 3%;
+}
+
+#page-container .professionals-content .professional-container:last-child {
+  margin-bottom: 5%;
+}
+
+#page-container .professionals-content .professional-container header {
+  padding: 3.2rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#page-container .professionals-content .professional-container header img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+#page-container .professionals-content .professional-container header div {
+  margin-left: 2.4rem;
+}
+
+#page-container
+  .professionals-content
+  .professional-container
+  header
+  .rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 50%;
+  margin-left: 10%;
+  align-items: center;
+}
+
+#page-container
+  .professionals-content
+  .professional-container
+  header
+  .rating-container
+  img {
+  width: 50%;
+  border-radius: 0;
+  height: 40px;
+}
+
+#page-container
+  .professionals-content
+  .professional-container
+  header
+  div
+  strong {
+  font: 700 2.4rem Archivo;
+  display: flex;
+  color: black;
+}
+#page-container .professionals-content .professional-container header div span {
+  font-size: 1.6rem;
+  display: block;
+  margin-top: 0.4rem;
+}
+
+#page-container .professionals-content .professional-container > p {
+  padding: 0.2rem;
+  font-size: 1.6rem;
+}
+
+#page-container
+  .professionals-content
+  .professional-container
+  .details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-container
+  .professionals-content
+  .professional-container
+  .details-container
+  .see-details {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  width: 15%;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: white;
+  background-color: #0f1e4c;
+  margin-top: 2%;
+  margin-left: 4%;
+  padding: 1%;
+}
+#page-container .professionals-content .professional-container footer {
+  padding: 3.2rem 2rem;
+  background: #fafafc;
+  border-top: 1px solid #e6e6f0;
+
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-container .professionals-content .professional-container footer p strong {
+  color: #2f4f4f;
+  font-size: 1.6rem;
+  display: block; /*é quem faz quebrar a linha*/
+}
+
+#page-container .professionals-content .professional-container footer a {
+  width: 20rem;
+  height: 5.6rem;
+  background: #04d361;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.4rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+#page-container .professionals-content .professional-container footer a:hover {
+  background: var(--color-secundary-dark);
+}
+
+#non-display {
+  display: none;
+  margin-top: 2%;
+}
+
+#non-display .adress {
+  display: flex;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 4%;
+
+  align-items: center;
+}
+
+#non-display .adress .adress-title {
+  font-size: 1.75rem;
+}
+
+#non-display .adress span {
+  margin-left: 1%;
+}
+
+#non-display .rating-title {
+  display: flex;
+  color: black;
+
+  margin-left: 4%;
+  margin-top: 2%;
+  align-items: center;
+}
+
+#non-display .rating-title h1 {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#non-display .rating-title span {
+  margin-left: 1%;
+  font-weight: bold;
+}
+
+#non-display .rating-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  height: 300px;
+
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#non-display .rating-container .rating-star {
+  display: flex;
+  align-items: center;
+}
+
+#non-display .rating-container .rating-star span {
+  margin-left: 1%;
+  color: #0f1e4c;
+  font-weight: bold;
+}
+
+#non-display .opinions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#non-display .opinions-container .title-opinions {
+  color: black;
+  text-align: center;
+  font-weight: Poppins;
+  font-size: 2.2rem;
+}
+
+#non-display .opinions-container .opinion-card {
+  width: 100%;
+  height: 180px;
+  border: 2px solid #b04022;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#non-display .opinions-container .opinion-card .details-user {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  align-items: center;
+  margin-left: 4%;
+}
+
+#non-display .opinions-container .opinion-card .details-user img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
+#non-display .opinions-container .opinion-card .details-user strong {
+  margin-left: 1.5%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#non-display .opinions-container .opinion-card p {
+  margin-left: 4%;
+  margin-top: 2%;
+  color: #0f1e4c;
+}
+
+.star-size1 {
+  width: 5%;
+  height: 40px;
+}
+
+.star-size2 {
+  width: 10%;
+  height: 40px;
+}
+
+.star-size3 {
+  width: 15%;
+  height: 40px;
+}
+
+.star-size4 {
+  width: 20%;
+  height: 40px;
+}
+
+.star-size5 {
+  width: 25%;
+  height: 40px;
+}
+
+@media (min-width: 700px) {
+  #page-container .professionals-content .professional-container header,
+  #page-container .professionals-content .professional-container footer {
+    padding: 3.2rem;
+  }
+
+  #page-container .professionals-content .professional-container > p {
+    padding: 0 3.2rem;
+  }
+
+  #page-container
+    .professionals-content
+    .professional-container
+    footer
+    p
+    strong {
+    display: initial;
+    margin-left: 1.6rem;
+  }
+
+  #page-container .professionals-content .professional-container footer a {
+    width: 24.5rem;
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+
+  #page-container .professionals-content .professional-container footer img {
+    margin-right: 1.6rem;
+  }
+}
